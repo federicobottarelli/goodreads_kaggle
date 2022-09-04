@@ -2,8 +2,18 @@
 My repositery for GoodReads books review Kaggle competition  
 For more info: https://www.kaggle.com/competitions/goodreads-books-reviews-290312
   
-  To elaborate faster the data operation with my personal computer, limitated to 16GB of RAM, I've tried to do the preprocessing part of the project with a bunch of scripts with command line arguments:
-  ### File description:
+  To elaborate faster the data operation with my personal computer, limitated to 16GB of RAM, I've tried to do the preprocessing part of the project with a bunch of scripts with command line arguments with the sequent organization:
+  1. [00_less_data.py](00_less_data.py)
+ 
+  
+ Things To Do:
+ - [ ] to perform lemmatization implement a method to tokenize in sentences.
+ - [ ] try a simple model to classify
+ - [ ] 
+  
+  
+  
+  ### Detailed script's description:
   #### 00_less_data.py
   Can do two things: (work with CSV and pickle files)
     - by default return a sample of the dataset with a choosen number of rows specified with the arguments --nRows
