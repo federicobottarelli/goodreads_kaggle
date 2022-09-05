@@ -7,9 +7,8 @@ For more info: https://www.kaggle.com/competitions/goodreads-books-reviews-29031
  
   
  Things To Do:
- - [ ] to perform lemmatization implement a method to tokenize in sentences.
+ - [ ] to perform lemmatization implement a method to tokenize in sentences (can improve performance because is possible parallelize POS-tagging).
  - [ ] try a simple model to classify
- - [ ] 
   
   
   
