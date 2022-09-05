@@ -10,7 +10,12 @@ For more info: https://www.kaggle.com/competitions/goodreads-books-reviews-29031
  - [ ] to perform lemmatization implement a method to tokenize in sentences (can improve performance because is possible parallelize POS-tagging).
  - [ ] try a simple model to classify
   
-  
+ ##### Sentence pipeline
+ 1. Take the column with texts from the original dataframe
+ 2. Remove HTML tags, URL, weird character but NOT the punctuation marker (we need them for the sentence tokenization)
+ 3. Divide any texts in list of sentences
+ 4. remove punctuation
+ 5. tokenize the sentences in word, making a structure with a list of sentence made by list of words, with this we can apply post_tag_sent() from NLTK library.
   
   ### Detailed script's description:
   #### 00_less_data.py
